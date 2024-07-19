@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.backgroundImg {
+  /* background-image: url("./images/image\ copy.png"); */
+  background-image: url("https://mobimg.b-cdn.net/v3/fetch/70/703e3aefd9500eff0f63294bc383ac2a.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.zoom {
+  zoom: 85%;
+}
+.content-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.carousel-container {
+  width: 400px;
+  height: 80%;
+  display: flex;
+}
